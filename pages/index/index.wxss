@@ -19,9 +19,5 @@
 
 .usermotto {
   margin-bottom: 30px;
-  margin-top: 50px;
-}
-
-.pokemonitems{
-  align-items: stretch
+  margin-top: 30px;
 }

@@ -1,0 +1,21 @@
+<view>
+  <template is="clubItem" data="{{...player1}}"></template>
+  <template is="clubItem" data="{{...player2}}"></template>
+  <template is="pokemonItem" data="{{pokemons}}"></template>
+
+</view>
+<template name="clubItem">
+  <view class="templateStyle">
+    <view>姓名 : {{name}}</view>
+    <view>年龄 : {{age}}</view>
+    <view>位置 : {{position}}</view>
+  </view>
+</template>
+
+<template name="pokemonItem">
+  <view class='pokemonitems'>
+    <block wx:for="{{pokemons}}" wx:for-item="pokemon" wx:key="index">
+      <text>{{index}} : {{pokemon.name}} \n</text>
+    </block>
+  </view>
+</template>

@@ -8,20 +8,23 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    pokemons: [{
-      name: "妙蛙种子"
-    }, {
-      name: "小火龙"
-    }, {
-      name: "杰尼龟"
-    }]
+    templateBtnName: "模板测试"
   },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
   },
+
+  // 模板测试点击
+  clickTemplate: function() {
+    wx.navigateTo({
+      url: '../template/template',
+    })
+  },
+
   onLoad: function() {
     if (app.globalData.userInfo) {
       this.setData({
@@ -50,6 +53,7 @@ Page({
       })
     }
   },
+
   getUserInfo: function(e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo
@@ -57,5 +61,5 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
 })

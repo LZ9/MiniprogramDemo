@@ -11,10 +11,10 @@
     <view class='usermotto'>
       <text class="user-motto">{{motto}}</text>
     </view>
-    <view class='pokemonitems'>
-      <block wx:for="{{pokemons}}" wx:for-item="pokemon" wx:key="index">
-        <text>{{index}} : {{pokemon.name}} \n</text>
-      </block>
-    </view>
   </view>
+
+
 </view>
+<button type='primary' bindtap="primary" bindtap='clickTemplate'>
+  {{templateBtnName}}
+</button>

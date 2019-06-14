@@ -1,0 +1,12 @@
+.templateStyle {
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.pokemonitems {
+  align-items: stretch;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
