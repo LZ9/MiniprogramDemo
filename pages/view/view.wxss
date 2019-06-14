@@ -19,3 +19,12 @@
   height: 200rpx;
   background: rgba(170, 170, 170, 50);
 }
+
+.switchLayoutStyle {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.tipsStyle{
+  margin-right: 80rpx;
+}
