@@ -1,0 +1,7 @@
+<view class="container">
+  <view>{{viewBgTips}}</view>
+  <view class='rootStyle' hover-class='rootPressStyle'>
+    <view class='contentStyle' hover-class='contentPressStyle' hover-stop-propagation='true' hover-start-time='500' hover-stay-time='2000'>
+    </view>
+  </view>
+</view>

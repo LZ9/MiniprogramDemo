@@ -18,6 +18,12 @@
 }
 
 .usermotto {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+}
+
+.btnStyle {
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
 }

@@ -8,7 +8,8 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    templateBtnName: "模板测试"
+    templateBtnName: "模板测试",
+    viewBgBtnName: "控件背景色测试"
   },
 
   //事件处理函数
@@ -22,6 +23,13 @@ Page({
   clickTemplate: function() {
     wx.navigateTo({
       url: '../template/template',
+    })
+  },
+
+  // 控件背景色测试点击
+  clickViewBg: function () {
+    wx.navigateTo({
+      url: '../view/view',
     })
   },
 

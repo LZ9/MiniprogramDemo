@@ -1,0 +1,21 @@
+.rootStyle {
+  width: 300rpx;
+  height: 300rpx;
+  background: yellowgreen;
+}
+
+.rootPressStyle {
+  background: rebeccapurple;
+}
+
+.contentStyle {
+  width: 200rpx;
+  height: 200rpx;
+  background: chocolate;
+}
+
+.contentPressStyle {
+  width: 200rpx;
+  height: 200rpx;
+  background: rgba(170, 170, 170, 50);
+}

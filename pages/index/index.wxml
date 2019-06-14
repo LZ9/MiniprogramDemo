@@ -15,6 +15,10 @@
 
 
 </view>
-<button type='primary' bindtap="primary" bindtap='clickTemplate'>
+<button class='btnStyle' type='primary' bindtap='clickTemplate'>
   {{templateBtnName}}
+</button>
+
+<button class='btnStyle' type='primary' bindtap='clickViewBg'>
+  {{viewBgBtnName}}
 </button>
